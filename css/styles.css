@@ -2,16 +2,24 @@
 /* CSS Document */
 
   body{
-          background-color: #19c37f;
+          background-color: aliceblue;
 	 	  margin: 0px;
 	  	  padding: 0px;
 	                   
       }
-
+.navbar {
+  
+}
+#top{
+   
+}
 .container{
-    margin-top: 45px;
+    margin-top: 5px;
 margin-bottom: 90px;    
     
+}
+.welcome .lisa{
+ text-align: center
 }
 
 #mainWrapper{
@@ -19,23 +27,6 @@ margin-bottom: 90px;
 /*    background-color: aqua;*/
 }
 
-
-
-.nav li{
-    display: inline;
-    float:right;
-    list-style: none;
-    line-height: 100%;
-    margin-left: 50px;
-    
-    
-} 
-
-.nav li:hover{
-   color: #edf0f8;
-    
-}	
- 
 #menu{
     position: relative;
     top:10px;
@@ -69,7 +60,7 @@ ul li {
      font-size: 25px;
 }
 .daily{
-    margin-top: 80px;
+    margin-top: 5px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -78,7 +69,10 @@ ul li {
     
 }
 #sammy{
-    margin-top: 50px
+    margin-top: 50px;
+       border: 1px solid #e2dbdb;
+     height:60%;
+    width: 97%;
 }
 
 
@@ -133,20 +127,6 @@ ul li {
      font-family: 'Candal', sans-serif;
 
     color: rgba(34, 33, 33, 0.96);
-    
-}
-
-
-#free{
-    height: 225px;
-    width: 227px;
-    display: inline-block;
-    position: absolute;
-    
-    font-size: 95px;
-     font-family: 'Candal', sans-serif;
-    
-    color: rgba(34, 33, 33, 0.64);
     
 }
 
