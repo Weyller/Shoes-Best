@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+  body{
+        background-color: palevioletred;
+		margin: 0px;
+	  	padding: 0px;
+                 
+      }
+ 
+.containers{
+	
+	height: 200px;
+	 
+}
+
+.containers.container1{
+	 
+	width: 100%;
+	float: none;
+		
+}
+
+.containers.container2{
+	 
+	width: 100%;
+	float: none;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

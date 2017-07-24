@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+
+  body{
+          background-color: #19c37f;
+	 	  margin: 0px;
+	  	  padding: 0px;
+	                   
+      }
+
+.container{
+    margin-top: 45px;
+margin-bottom: 90px;    
+    
+}
+
+#mainWrapper{
+    
+/*    background-color: aqua;*/
+}
+
+
+
+.nav li{
+    display: inline;
+    float:right;
+    list-style: none;
+    line-height: 100%;
+    margin-left: 50px;
+    
+    
+} 
+
+.nav li:hover{
+   color: #edf0f8;
+    
+}	
+ 
+#menu{
+    position: relative;
+    top:10px;
+    width: 50px;
+    height: 30px;
+        
+}
+#menu:hover{
+     width: 55px;
+    height: 31px;
+    
+}
+
+ul li {
+	margin: 0;
+	padding:  10px 10px  2px 31px;
+	list-style: none;
+	
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+
+#strong{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#itallic{
+    font-style: italic;
+     font-size: 25px;
+}
+.daily{
+    margin-top: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1c47d6;
+     font-weight: 800;
+    
+}
+#sammy{
+    margin-top: 50px
+}
+
+
+#hover{
+    
+}
+/*
+.sammy{
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+.gallery{
+    margin: 0 ;
+   margin-top: -80px;
+    height: auto;
+    width: 100%;
+   display: inline-block;
+    text-align: center;
+     
+}
+ .gallery img{
+    margin: 4px;  
+    
+    border: 1px solid #e2dbdb;
+       
+}
+
+ 
+.gallery img{
+    height: 225px;
+    width: 227px;
+      
+}
+/*
+.gallery img:hover{
+   opacity: 1;
+  
+}
+*/
+
+ 
+#dix{
+    height: 85px;
+    width: 227px;
+   
+    position: absolute;
+    top: 150px; 
+    font-size: 55px;
+     font-family: 'Candal', sans-serif;
+
+    color: rgba(34, 33, 33, 0.96);
+    
+}
+
+
+#free{
+    height: 225px;
+    width: 227px;
+    display: inline-block;
+    position: absolute;
+    
+    font-size: 95px;
+     font-family: 'Candal', sans-serif;
+    
+    color: rgba(34, 33, 33, 0.64);
+    
+}
+
+/*
+.gallery #dix:hover{
+visibility: hidden;
+}
+*/
+
+ 
+.gallery #wrapper5add img{
+   
+    width: 510px;
+   
+}
+.gallery #wrapper4add img{
+   
+ 
+}
+
+.gallery #wrapper3add img{
+   
+ 
+}
+.gallery #wrapper2 img{
+   
+  opacity: 1;
+}
+
+.gallery #wrapper1 img{
+    
+   opacity: .6;
+}
+ 
+#wrapper1 img:hover{
+    
+   opacity: 1;
+}
+
+#wrapper2 img:hover{
+    
+   opacity: 1;
+}
+
+.gallery #dix{
+    opacity: .6;
+    
+}
+
+/*
+ #dix:hover{
+    
+   
+   visibility: hidden;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

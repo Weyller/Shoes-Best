@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+
+  body{
+          background-color: #19c37f;
+	 	  margin: 0px;
+	  	  padding: 0px;
+	                   
+      }
+
+
+#mainWrapper{
+    margin-top: 100px;
+   
+}
+
+
+
+.nav li{
+    display: inline;
+    float:right;
+    list-style: none;
+    line-height: 100%;
+    margin-left: 50px;
+    
+    
+} 
+
+.nav li:hover{
+   color: #edf0f8;
+    
+}	
+ 
+#menu{
+    position: relative;
+    top:10px;
+    width: 50px;
+    height: 30px;
+        
+}
+#menu:hover{
+     width: 55px;
+    height: 31px;
+    
+}
+
+ul li {
+	margin: 0;
+	padding:  10px 10px  2px 31px;
+	list-style: none;
+	background-image: url("/images/arrow.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+
+#strong{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#itallic{
+    font-style: italic;
+     font-size: 25px;
+}
+.daily{
+    margin-top: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1c47d6;
+     font-weight: 800;
+    
+}
+#sammy{
+    margin-top: 50px
+}
+#sammy:hover{
+    border: 1px solid #cbc5c5
+}
+
+.sammy{
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery{
+    margin: 0 ;
+   margin-top: -80px;
+    height: auto;
+    width: 100%;
+   display: inline-block;
+    text-align: center;
+     
+}
+ .gallery img{
+    margin: 4px;  
+    float: left;
+     border: 1px solid #e2dbdb;
+       
+}
+
+ 
+.gallery img{
+    height: 225px;
+    width: 227px;
+      
+}
+
+#dix{
+    
+    background-color: #333;
+    display: inline-block;
+    position: absolute;
+    line-height: 250%;
+    font-size: 95px;
+     font-family: 'Candal', sans-serif;
+    left: 20px;
+    color: rgba(34, 33, 33, 0.64);
+    
+}
+
+
+#free{
+    
+    display: inline-block;
+    position: absolute;
+    line-height: 250%;
+    font-size: 95px;
+     font-family: 'Candal', sans-serif;
+    left: 740px;
+    color: rgba(34, 33, 33, 0.64);
+    
+}
+
+ 
+.gallery #wrapper5add img{
+   
+    width: 464px;
+    opacity: 1;
+}
+.gallery #wrapper4add img{
+   
+  opacity: 1;
+}
+
+.gallery #wrapper3add img{
+   
+  opacity: 1;
+}
+.gallery #wrapper2 img{
+   
+  opacity: 1;
+}
+
+#wrapper1 img{
+    
+   opacity: .2;
+}
+/*#wrapper1 img:hover{
+    
+   opacity: 1;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
