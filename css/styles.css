@@ -7,20 +7,26 @@
 	  	  padding: 0px;
 	                   
       }
+
+#logo{
+    width: 120px;
+    height: 60px;
+    
+}
 .navbar {
   
 }
-#top{
-   
-}
+
 .container{
     margin-top: 5px;
 margin-bottom: 90px;    
     
 }
 .welcome .lisa{
- text-align: center
+ text-align: center;
+     color:#585a5c;
 }
+
 
 #mainWrapper{
     
@@ -38,16 +44,6 @@ margin-bottom: 90px;
      width: 55px;
     height: 31px;
     
-}
-
-ul li {
-	margin: 0;
-	padding:  10px 10px  2px 31px;
-	list-style: none;
-	
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 20px;
 }
 
 #strong{
@@ -74,7 +70,15 @@ ul li {
      height:60%;
     width: 97%;
 }
-
+#greatselection{
+ 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #e58c22;
+     font-weight: 500;
+    
+}
 
 
 .gallery{
@@ -134,7 +138,7 @@ ul li {
 
 .gallery #wrapper1 img{
     
-   opacity: .6;
+/*   opacity: .6;*/
 }
  
 #wrapper1 img:hover{
@@ -159,7 +163,7 @@ ul li {
 }
 .price{
     
-    color: #de860e;
+    color: #e8992d;
     font-size: 22px;
     font-weight: 500;
 }
@@ -169,15 +173,54 @@ ul li {
     margin: 5px;
     
 }
+.location{
+    color: #8b8986;
+}
+
+@media (min-width: 576px)
+.bd-footer {
+    text-align: left;
+}
+
+.bd-footer {
+    padding: 4rem 0;
+    margin-top: 4rem;
+    font-size: 85%;
+    text-align: left;
+    background-color: #080808;
+     
+}
+
+.text-muted {
+    color: #636c72!important;
+}
+#gradient4 {
+     
+    background: red; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(-90deg, #696a6c, #101010); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #696a6c, #101010); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #696a6c, #101010); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #696a6c, #101010); /* Standard syntax (must be last) */
+}
+/* background: linear-gradient(-90deg, #3482ed, #12efef); /* Standard syntax (must be last) */
 
 
 
+.bd-footer-links {
+    padding-left: 0;
+    margin-bottom: 1rem;
+}
 
-
-
-
-
-
+ul li {
+    
+	margin: 0;
+	padding:  10px;
+	list-style: none;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
 
 
 
