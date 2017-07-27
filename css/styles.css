@@ -2,7 +2,7 @@
 /* CSS Document */
 
   body{
-          background-color: aliceblue;
+         
 	 	  margin: 0px;
 	  	  padding: 0px;
 	                   
@@ -17,6 +17,10 @@
   
 }
 
+.navbar-brand{
+margin-left:10px;     
+}
+
 .container{
     margin-top: 5px;
 margin-bottom: 90px;    
@@ -25,25 +29,6 @@ margin-bottom: 90px;
 .welcome .lisa{
  text-align: center;
      color:#585a5c;
-}
-
-
-#mainWrapper{
-    
-/*    background-color: aqua;*/
-}
-
-#menu{
-    position: relative;
-    top:10px;
-    width: 50px;
-    height: 30px;
-        
-}
-#menu:hover{
-     width: 55px;
-    height: 31px;
-    
 }
 
 #strong{
@@ -77,9 +62,7 @@ margin-bottom: 90px;
     margin-right: auto;
     color: #e58c22;
      font-weight: 500;
-    
 }
-
 
 .gallery{
     margin: 0 ;
@@ -92,18 +75,40 @@ margin-bottom: 90px;
 }
  .gallery img{
     margin: 4px;  
-    
-    border: 1px solid #e2dbdb;
+    border: 2px solid #e2dbdb;
        
 }
-
  
 .gallery img{
     height: 225px;
     width: 227px;
       
 }
- 
+ #icon{
+    height: 18px;
+    width: 20px;
+    border: 0px; 
+    
+    
+}
+.price{
+    
+    color: #e8992d;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.price,.location,#icon{
+   
+    margin: 5px;
+    
+}
+.location{
+    color: #8b8986;
+}
+
+
+
 #dix{
     height: 85px;
     width: 227px;
@@ -156,26 +161,7 @@ margin-bottom: 90px;
     
 }
 
-#icon{
-    height: 20px;
-    width: 20px;
-    
-}
-.price{
-    
-    color: #e8992d;
-    font-size: 22px;
-    font-weight: 500;
-}
 
-.price,.location,#icon{
-   
-    margin: 5px;
-    
-}
-.location{
-    color: #8b8986;
-}
 
 @media (min-width: 576px)
 .bd-footer {
