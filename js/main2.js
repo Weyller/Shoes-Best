@@ -2,7 +2,7 @@
 	
 	'use strict';
         
-        alert("test");
+//        alert("test");
 
  //hideMe();
 
