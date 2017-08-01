@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-  body{
+body{
          background-color: aliceblue;
 	 	  margin: 0px;
 	  	  padding: 0px;
-	                   
+	      font-family: 'Source Sans Pro', sans-serif;             
       }
 
 #logo{
@@ -81,8 +81,9 @@ margin-bottom: 90px;
 }
  
 .gallery img{
-    height: 225px;
-    width: 227px;
+   height: 100%;
+    width: 65%;
+     
       
 }
  #icon{
