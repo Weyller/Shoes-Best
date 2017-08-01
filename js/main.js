@@ -241,6 +241,10 @@ function displayData(){
         inputName.setAttribute("name","Name");
         inputName.setAttribute("placeholder","enter name");
         
+        var pSpacing = document.createElement("DIV");
+        pSpacing.setAttribute("id","spacing");
+        pSpacing.innerHTML = ""
+        
         
         //---------------------------------------------
         var textEmail = document.createTextNode("Your email:  ")
@@ -265,6 +269,7 @@ function displayData(){
         //---------------------------------------------
         var buttSubmit  = document.createElement('BUTTON');
         buttSubmit.setAttribute("type","button");
+        buttSubmit.setAttribute("id","buttonSubmit");
         buttSubmit.setAttribute("class","btn btn-warning btn-lg btn-block");
          buttSubmit.setAttribute("value","Email2");
         //--------------------------------------------
@@ -342,10 +347,11 @@ function displayData(){
         //--------------------
         form.appendChild(textName);
         form.appendChild(inputName);
-        $('.input1').append('<p></p><p></p>');
+        form.appendChild(pSpacing);
+       
         form.appendChild(textEmail);
         form.appendChild(inputEmail);
-        $('.input2').append('<p></p><p></p>');
+        
         form.appendChild(textArea);
         textArea.appendChild(textMessage);
         form.appendChild(spanSubmit);
@@ -368,7 +374,7 @@ function displayData(){
 		
 	
 	}
-	
+	 $('input').append('<p></p><p></p>');
     
 }
 
